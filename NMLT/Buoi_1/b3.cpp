@@ -5,5 +5,5 @@ int main()
 {
     char ch;
     cin >> ch;
-    cout << (char)(ch - 32); 
+    cout << (char)(ch - ('a' - 'A')); 
 }
